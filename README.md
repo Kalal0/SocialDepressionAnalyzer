@@ -13,3 +13,6 @@
     
  # Dashboard_Server
   This is the Dashboard will be displayed when the user inputs a twitter username and clicks analyze. It must be ran beforehand. You can change the TwitterUsername01 variable and that will change the account that will be analyzed.
+  
+# Model Creation with dataset
+  Orignal code used to create the model with the dataset used.
