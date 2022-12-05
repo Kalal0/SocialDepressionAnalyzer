@@ -1,3 +1,5 @@
+  https://mega.nz/folder/h8tzXQxA#idrc-ehzpfHjjYO4-MJdSA
+  
   # This repo contains our final project for Tuwaiq Academy's Data Science and Machine learning bootcamp. 23/10/2022 - 5/12/2022
   
   We made a deep learning NLP model that can detect whether a text is depressing or not. And then deployed that model on a website where you can test it using simple sentences. We also have the option to enter a twitter username and our website will scrape his or her tweets run them through our model and then display a dashboard. The dashboard is interactive and contains multiple insights about his or her mental health.
