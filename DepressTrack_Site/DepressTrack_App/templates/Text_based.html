@@ -1,0 +1,152 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+  <style>
+    @font-face {
+      font-family: 'pizza';
+      src: url('{% static 'fonts/PizzaismyFAVORITE.ttf' %} format("truetype")');
+    }
+  </style>
+
+<link rel="stylesheet" href="{% static 'Text_based.css' %}">
+
+
+
+<body bgcolor="#4e092b">
+
+
+  
+
+
+  <img src="{% static 'DepressTrack_App/media/8zEoh.png' %}"  alt="image"
+  style="top: -23px;
+  left: -10px;
+  width: 250px;
+  height: 1150px;
+  position: absolute;"/>
+
+  <img src="{% static 'DepressTrack_App/media/pngfind.com-robot-png-1019144.png' %}"  alt="image"
+  style="top: -23px;
+  left: -20px;
+  width: 944px;
+  height: 1148px;
+  position: absolute;"/>
+
+
+  <img src="{% static 'DepressTrack_App/media/robottext.png' %}"  alt="image"
+  style="top: 430px;
+  left: 5px;
+  width: 230px;
+  height: 80px;
+  position: absolute;"/>
+
+  
+
+
+  
+  <div class="textbased-containerr">
+    <h1 style = 
+    "top: 176px;
+    left: 670px;
+    color: #ff3838;
+    height: 40px;
+    position: absolute;
+    font-size: 50px;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 600;"
+    class="textbased-text">Want to</h1>
+
+    <h1 style = 
+    "top: 176px;
+    left: 850px;
+    color: #FFFFFF;
+    height: 40px;
+    position: absolute;
+    font-size: 50px;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 600;"
+    class="textbased-text">test</h1>
+
+
+    <h1 style = 
+    "top: 176px;
+    left: 940px;
+    color: #ff3838;
+    height: 40px;
+    position: absolute;
+    font-size: 50px;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 600;"
+    class="textbased-text">our</h1>
+
+    <h1 style = 
+    "top: 176px;
+    left: 1030px;
+    color: #FFFFFF;
+    height: 40px;
+    position: absolute;
+    font-size: 50px;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 600;"
+    class="textbased-text">model?</h1>
+
+
+  <form action="result">
+    {% csrf_token %}
+
+    <div class="form-group">
+    <input 
+    name="enteredtext"
+    placeholder="Awaiting input..."
+    class="form-control"
+    required type="text"
+    style ="top: 281px;
+    left: 674px;
+    width: 491px;
+    height: 54px;
+    position: absolute;
+    background-color: #EFABAB;"
+  />
+</div>
+
+  <button style="top: 373px;
+  left: 835px;
+  width: 143px;
+  height: 44px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  background-color: #8a090d;"
+  id="Testbutton" 
+  
+  type="submit"
+  name="Testbutton"
+  >TEST</button>
+</form>
+
+
+
+
+      
+
+</div>
+      
+  
+    
+
+
+</body>
+</html>

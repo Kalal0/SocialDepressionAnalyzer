@@ -1,0 +1,192 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{% static 'result.css' %}">
+
+  
+<body class="center" bgcolor="#4e092b">
+
+
+  <img src="{% static 'DepressTrack_App/media/3d-robot-widescreen-wallpaper-49974-51659-hd-wallpapers.png' %}"  alt="image"
+  style="right: -18px;
+  width: 932px;
+  bottom: -20px;
+  height: 634px;
+  position: absolute;"/>
+
+
+
+  <label class="heat-slider heat-slider--v">
+    <span style ="font-size: 20px;
+    color: #FFFFFF;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Merriweather;
+    font-weight: 600;"
+    class="heat-slider--label">Non-Depression 0%</span>
+    <span class="heat-slider--input">
+      <input type="range" value={{result}} min="0" max="100" oninput="doThings(event)" />
+    </span>
+  </label>
+  
+  <output
+  style ="font-size: 20px;
+  color: #ff3838;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"> Depression 100%</output>
+
+<script 
+
+const output = document.querySelector('output')
+
+const doThings = (event) => {
+	const { value, min, max, step, parentElement: parent } = event.target
+	const decimals = step && step.includes('.') ? step.split('.')[1] : 1
+	const percent = `${((value - min)/(max - min) * 100).toFixed(decimals)}%`
+	parent.style.setProperty('--p', percent)
+
+	output.value = `value: ${value} (${percent})`
+}
+
+
+</script>
+
+  <div class="result-containerr">
+  {% if result <= 50 %}
+  <h1 style ="top: 176px;
+  left: 550px;
+  color: rgb(191, 76, 76);
+  height: 40px;
+  position: absolute;
+  font-size: 50px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"
+  class="result-text">That&apos;s not a</h1>
+
+
+  
+
+
+
+  <h1 style ="top: 176px;
+  left: 805px;
+  color: #FFFFFF;
+  height: 40px;
+  position: absolute;
+  font-size: 50px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"
+  class="result-text">depressing</h1>
+
+  <h1 style ="top: 176px;
+  left: 1040px;
+  color: rgb(191, 76, 76);
+  height: 40px;
+  position: absolute;
+  font-size: 50px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"
+  class="result-text">Statement</h1>
+
+  <h1 style ="top: 20px;
+  color: #FFFFFF;
+  left: 195px;
+  height: 40px;
+  position: absolute;
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"
+  class="percentage">{{result}}%</h1>
+
+  <img src="{% static 'DepressTrack_App/media/clipart3052156.png' %}"  alt="image" id="happyface"
+      style="top: 300px;
+      left: 650px;
+      width: 500px;
+      position: absolute;"/>
+
+  {% elif result > 50  %}
+  <h1 style ="top: 176px;
+  left: 580px;
+  color: #ff3838;
+  height: 40px;
+  position: absolute;
+  font-size: 50px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"
+  class="result-text">That&apos;s a </h1>
+
+  <h1 style ="top: 176px;
+  left: 760px;
+  color: #FFFFFF;
+  height: 40px;
+  position: absolute;
+  font-size: 50px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"
+  class="result-text">depressing </h1>
+
+
+  <h1 style ="top: 176px;
+  left: 1000px;
+  color: #ff3838;
+  height: 40px;
+  position: absolute;
+  font-size: 50px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"
+  class="result-text">statement</h1>
+
+  <h1 style ="top: 20px;
+  color: #ff3838;
+  left: 195px;
+  height: 40px;
+  position: absolute;
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Merriweather;
+  font-weight: 600;"
+  class="percentage">{{result}}%</h1>
+
+  <img src="{% static 'DepressTrack_App/media/clipart4376039.png' %}"  alt="image" id="sadface"
+      style="top: 300px;
+      left: 650px;
+      width: 500px;
+      position: absolute;"/>
+
+  {% else %}
+  <h1 style="color: rgb(31, 15, 15); font-weight: 900;">ERROR</h1>
+  {% endif %}
+
+</body>
+    
+
+
+</body>
+</html>

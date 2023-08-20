@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Depression Tracker| Home</title>
+
+  <script src="https://kit.fontawesome.com/47101d2035.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style>
+    .center {
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(230, 239, 245);
+    }
+  </style>
+</head>
+
+
+<body class="center" >
+
+  <h1 style="color:rgb(44, 44, 90); font-weight: 700;">
+    <i class="fa-solid fa-hippo"></i> Depression Tracker
+  </h1>
+
+  <p style="color:rgb(51, 51, 83); font-weight: 700;">
+    Seems Depressed? Let's Find Out!
+  </p>
+
+  <p style="color:rgb(51, 51, 83); font-weight: 700;">
+    Detecet One Text
+  </p>
+
+  <form action="result">
+    {% csrf_token %}
+
+    <div class="form-group">
+      <input class="form-control" placeholder="Full Text" required type="text" name="SimpleText">
+    </div>
+
+    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Detect_Text">
+
+    <input type="button" value="Click me" onclick="msg()">
+
+  </form>
+
+  <p style="color:rgb(51, 51, 83); font-weight: 700;">
+    Track The Account
+  </p>
+
+  <form action="result">
+    {% csrf_token %}
+
+    <div class="form-group">
+      <input class="form-control" placeholder="The Account Link ( Twitter - Facebook )" required type="text" name="Account">
+    </div>
+
+    <input class="btn btn-primary btn-lg btn-block" type="submit" value="Detect_Account">
+
+  </form>
+</body>
+
+</html>
