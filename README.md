@@ -41,3 +41,28 @@
 
 
 ### Test 2: Negative Statement
+
+![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/3f97b145-0512-41a8-8485-9a5785c95f40)
+
+
+![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/2895a619-70b7-4ab6-9d06-3e311c162e9d)
+
+
+### Twitter page
+  As of 20/6/2023 Twitter has changed their policy regarding twitter scraping allowing only their tools to scrape. The method we used to no longer works. However I will describe how it used to work.
+
+  After scraping the tweets, each tweet will be passed through our NLP model. Then the data will be displayed in the form of interesting graphs, that will be displayed on the website. 
+
+  ![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/f10d8ead-93d1-4561-85ca-a49e6d648388)
+
+
+### Example insights
+
+
+![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/c7be63f8-d556-4ca0-9a28-9fbf6d9348c8)
+
+![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/44f6a5bd-dfc0-4aeb-9c94-be48cb5d9fee)
+
+
+
+
