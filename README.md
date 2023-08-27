@@ -18,3 +18,26 @@
   
 # Model Creation with dataset
   Orignal code used to create the model with the dataset used.
+
+
+# Screenshots 
+
+
+### Home Page
+![Image 1](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/44b35781-606c-4d13-8d5a-ef08ddbaee4e)
+
+
+### Model Testing Page
+![Image 2](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/5f59a1b0-4d59-4a29-8a7e-74983fe7455e)
+
+
+### Test 1: Postitive statement
+
+
+![Test 1](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/5fab6809-dfa3-49eb-a795-6ec42905c222)
+
+![Result 1](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/ab1955b4-ee85-400c-b68b-fef7e1da0d7d)
+
+
+
+### Test 2: Negative Statement
