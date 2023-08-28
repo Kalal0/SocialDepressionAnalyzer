@@ -24,28 +24,28 @@
 
 
 ### Home Page
-![Image 1](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/44b35781-606c-4d13-8d5a-ef08ddbaee4e)
+![263544831-44b35781-606c-4d13-8d5a-ef08ddbaee4e](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/e647d538-4bac-453c-af51-eac0ca900181)
+
 
 
 ### Model Testing Page
-![Image 2](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/5f59a1b0-4d59-4a29-8a7e-74983fe7455e)
+![263545173-5f59a1b0-4d59-4a29-8a7e-74983fe7455e](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/30ff82d4-8607-48eb-b54c-967c78ddb9a5)
 
 
 ### Test 1: Postitive statement
 
+![263545340-5fab6809-dfa3-49eb-a795-6ec42905c222](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/570b80f3-9066-4e03-b0d5-2c084d4fb3c4)
 
-![Test 1](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/5fab6809-dfa3-49eb-a795-6ec42905c222)
+![263545637-ab1955b4-ee85-400c-b68b-fef7e1da0d7d](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/43e10d04-c3b5-4d3a-ba7c-9efe6984eebb)
 
-![Result 1](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/ab1955b4-ee85-400c-b68b-fef7e1da0d7d)
 
 
 
 ### Test 2: Negative Statement
 
-![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/3f97b145-0512-41a8-8485-9a5785c95f40)
+![263554518-3f97b145-0512-41a8-8485-9a5785c95f40](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/271d2958-181d-42b8-84a0-09f1cf5dfc0f)
 
-
-![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/2895a619-70b7-4ab6-9d06-3e311c162e9d)
+![263554477-2895a619-70b7-4ab6-9d06-3e311c162e9d](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/e8f8c1b5-4bbf-4dfb-886b-cb5576158cfc)
 
 
 ### Twitter page
@@ -53,13 +53,16 @@
 
   After scraping the tweets, each tweet will be passed through our NLP model. Then the data will be displayed in the form of interesting graphs, that will be displayed on the website. 
 
-  ![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/f10d8ead-93d1-4561-85ca-a49e6d648388)
+![263554854-f10d8ead-93d1-4561-85ca-a49e6d648388](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/7bffab01-f58b-4f6e-9c73-46d7781f2755)
+
 
 
 ### Example insights
 
+![263554895-c7be63f8-d556-4ca0-9a28-9fbf6d9348c8](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/21b97133-2d94-4568-adb0-49fddade54b3)
 
-![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/c7be63f8-d556-4ca0-9a28-9fbf6d9348c8)
+![263554919-44f6a5bd-dfc0-4aeb-9c94-be48cb5d9fee](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/6e8311e2-7ed6-44eb-bbac-69349723d177)
+
 
 ![image](https://github.com/Kalal0/SocialDepressionAnalyzer/assets/109832303/44f6a5bd-dfc0-4aeb-9c94-be48cb5d9fee)
 
